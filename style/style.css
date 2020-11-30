@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Notable', sans-serif;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/736x/93/7b/54/937b54198d1a84376dddaf148f5da5cc.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+}
+
+.img__header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    -webkit-text-stroke: 0.8px rgb(249, 209, 47);
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin: 0 2% 0;
+}
+
+.menu1{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu2{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    
+}
+
+.reciver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-text-stroke: 0.8px rgb(249, 209, 47);
+    font-size: 1.1rem;
+}
+
+.img{
+    align-self: center;
+    width: 200px;
+    height: 200px;
+} 
+
+.img__inside{
+    width: 100%;
+    height: 100%;
+}
+
+audio{
+    margin-top: 40%;
+    width: 30%;
+    position: absolute;
+    top: 60%;
+    align-self: center;
+}
+
+
+/* @media (min-width: 700px){
+
+body{
+background-color: black;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(https://s1.eestatic.com/2020/05/04/cultura/cine/Peliculas-Series-Star_Wars-Disney-Cine_487462020_151393420_1024x576.jpg);
+}
+    
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.character{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: max-content;
+    background-color: black;
+    color: black;
+    -webkit-text-stroke: 2px yellow;
+    border: solid 3px white;
+    font-size: 1.5rem;
+}
+
+.character__inside{
+    text-decoration: underline;
+
+}
+
+.reciver{
+    margin-top: 5%;
+    background-color: black;
+    color: black;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 50%;
+    -webkit-text-stroke: 2px yellow;
+
+}
+
+.img{
+    width: 100%;
+    height: 300px;
+  
+}
+
+.img__inside{
+    width: 100%;
+    height: 100%;
+}
+} */
