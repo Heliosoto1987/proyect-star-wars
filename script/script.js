@@ -77,7 +77,7 @@ const arrayphotos = [
             }else if (select === 'Perfect Jedi') {
                 reciver.innerHTML = `<div class="name">Nombre: Jedi Perfecta</div>` + `<div class="height">Altura: 1.72</div>` + `<div class="mass">Peso: 42</div>` + `<div class="img"><img class="img__inside" src="img/neidy.jpg" alt="Disculpe ha ocurrido un error"></div>` + `<div>Estos datos han sido manipulados ALERT!!!</div>`;
             }else if (select === 'Er papa de los Helados') {
-                reciver.innerHTML = `<div class="name">Nombre: Vergatarius Jedi Master</div>` + `<div class="height">Altura: 2.15</div>` + `<div class="mass">Peso: 90Kg</div>` + `<div class="img"><img class="img__inside" src="img/helio.jpg" alt="Disculpe ha ocurrido un error"></div>` + `<div>Este es er campeon de la galaxia si lo vez corre mi hermano</div>`;
+                reciver.innerHTML = `<div class="name">Nombre: Vergatarius Jedi Master</div>` + `<div class="height">Altura: 2.15</div>` + `<div class="mass">Peso: 90Kg</div>` + `<div class="img"><img class="img__inside" src="img/helio.jpg" alt="Disculpe ha ocurrido un error"></div>` + `<div>Este es el campeon de la galaxia si lo ves corre mi hermano</div>`;
             }else if(select === 'Divertidos') {
             reciver.innerHTML = ''
             }

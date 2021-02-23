@@ -46,6 +46,7 @@
     align-items: center;
     -webkit-text-stroke: 0.8px rgb(249, 209, 47);
     font-size: 1.1rem;
+    margin-top: 2%;
 }
 
 .img{
@@ -63,6 +64,13 @@ audio{
     position: absolute;
     align-self: center;
     bottom: 0;
+}
+
+@media (max-width: 600px){
+    .reciver{
+        margin: 20% 5% 0 5%;
+    
+    }
 }
 
 
