@@ -5,14 +5,23 @@ const menutwo = document.querySelector('.menu2');
 let dataArray = [];
 const arrayphotos = [
     ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6J_pKBuVvAx5Xl70xQsFmGYyw3_L9cqqGQ&usqp=CAU'], 
+
     ['https://i.pinimg.com/originals/1a/82/76/1a8276fac42f725a16b9b932c7effa13.jpg'],
-    ['https://static.wikia.nocookie.net/esstarwars/images/4/41/R2_negtd.jpg/revision/latest/top-crop/width/360/height/450?cb=20100121214603'],
+
+    ['https://staticpasa2.cdnstatics2.com/static/upl/img//011M60/sliderImgPrincipal_104_1-slider-png2-r2d2-584x584_1529318754611.png'],
+
     ['https://www.cinemascomics.com/wp-content/uploads/2020/06/poder-darth-vader.jpg'],
-    ['https://static.wikia.nocookie.net/esstarwars/images/9/9b/Princessleiaheadwithgun.jpg/revision/latest/scale-to-width-down/340?cb=20150117214124'],
-    ['https://static.wikia.nocookie.net/esstarwars/images/8/81/Owen-OP.jpg/revision/latest?cb=20200719210622'],
+
+    ['https://static.wikia.nocookie.net/esstarwars/images/0/0a/LMB.png/revision/latest/scale-to-width-down/340?cb=20180717023934'],
+
+    ['https://static.wikia.nocookie.net/starwars/images/3/33/Young_owen.jpg/revision/latest/scale-to-width-down/340?cb=20080313203444'],
+
     ['https://pm1.narvii.com/6168/ff4e27ef435e7191ca5429126c31754115a93776_00.jpg'],
-    ['https://static.wikia.nocookie.net/esstarwars/images/2/2c/R5d4.jpg/revision/latest/top-crop/width/360/height/450?cb=20060315232602'],
+
+    ['https://static.wikia.nocookie.net/esstarwars/images/c/cb/R5-D4_Sideshow.png/revision/latest?cb=20171215233114'],
+
     ['https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=0%2C0%2C1560%2C780'],
+    
     ['https://ca-times.brightspotcdn.com/dims4/default/d435f74/2147483647/strip/true/crop/1263x720+0+0/resize/1263x720!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F57%2F32%2F9f488c2d4bc288bcfce63e749811%2Fobi-wan.JPG']
 ];
 
