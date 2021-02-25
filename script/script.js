@@ -12,13 +12,13 @@ const arrayphotos = [
 
     ['https://www.cinemascomics.com/wp-content/uploads/2020/06/poder-darth-vader.jpg'],
 
-    ['https://static.wikia.nocookie.net/esstarwars/images/0/0a/LMB.png/revision/latest/scale-to-width-down/340?cb=20180717023934'],
+    ['https://i.pinimg.com/originals/af/0b/5c/af0b5cd96c2ada2c843864c49179764f.jpg'],
 
-    ['https://static.wikia.nocookie.net/starwars/images/3/33/Young_owen.jpg/revision/latest/scale-to-width-down/340?cb=20080313203444'],
+    ['https://static.wikia.nocookie.net/doblaje/images/8/84/Owen_Lars_Young_STAR_WARS.png/revision/latest?cb=20170930191515&path-prefix=es'],
 
     ['https://pm1.narvii.com/6168/ff4e27ef435e7191ca5429126c31754115a93776_00.jpg'],
 
-    ['https://static.wikia.nocookie.net/esstarwars/images/c/cb/R5-D4_Sideshow.png/revision/latest?cb=20171215233114'],
+    ['https://static.wikia.nocookie.net/starwars/images/4/41/R5_negtd.jpg/revision/latest?cb=20100810061833'],
 
     ['https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=0%2C0%2C1560%2C780'],
     
