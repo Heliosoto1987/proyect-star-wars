@@ -22,7 +22,7 @@ img{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    
 }
 
 .page__header{
@@ -59,9 +59,7 @@ img{
 }
 
 .menu2{
-  
     text-align: end;
-   
 }
 
 .menu1__span:hover, .menu2__span:hover {
@@ -92,12 +90,16 @@ img{
     height: 25vh;
 }
 
-
-
-
-
 audio{
     align-self: center;
+    width: 40vw;
+    height: 4.5%;
+    padding: 6px 20px 16px;
+    border-radius: 16.1px;
+    -webkit-backdrop-filter: blur(32.1px);
+    backdrop-filter: blur(32.1px);
+    box-shadow: 3px 3px 11px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(216, 216, 216, 0.1);
 }
 
 @media (min-width: 800px) {
@@ -108,8 +110,8 @@ audio{
         left: 18.3%;
         right: 18.3%;
         bottom: 75.4%;
-        width: 913px;
-        height: 94px;
+        width: 63.4%;
+        height: 7.9%;
     }
     .menu1{
         width: 256px;
@@ -168,11 +170,12 @@ audio{
         line-height: normal;
         letter-spacing: 1.87px;
         color: #ffc500;
+        
     }
 
     audio{
-        width: 400px;
-        height: 54px;
+        width: 27.8%;
+        height: 4.5%;
         padding: 6px 20px 16px;
         border-radius: 16.1px;
         -webkit-backdrop-filter: blur(32.1px);
@@ -181,7 +184,7 @@ audio{
         background-color: rgba(216, 216, 216, 0.1);
         position: absolute;
         top: 37.9%;
-        left: 36.1% ;
+        left: 36.1%;
         right: 36.1% ;
         bottom: 57.6%;
     }
@@ -192,6 +195,7 @@ audio{
        left: 41.7%;
        right: 41.7%;
        bottom: 22.1%;
+       text-align: center;
     }
 
     .img{
@@ -202,9 +206,6 @@ audio{
         height: 240px;
     }
     
-  
-
-
     .img__planet{
         position: absolute;
         top: 2.4%;
