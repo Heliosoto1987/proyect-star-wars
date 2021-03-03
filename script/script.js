@@ -6,19 +6,19 @@ let dataArray = [];
 const arrayphotos = [
     ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6J_pKBuVvAx5Xl70xQsFmGYyw3_L9cqqGQ&usqp=CAU'], 
 
-    ['https://i.pinimg.com/originals/1a/82/76/1a8276fac42f725a16b9b932c7effa13.jpg'],
+    ['http://2.bp.blogspot.com/-jP2rNAhUPSI/VNrIfnz6hMI/AAAAAAAASMA/iV_euzBDuVM/s1600/C3PO-16.JPG'],
 
-    ['https://staticpasa2.cdnstatics2.com/static/upl/img//011M60/sliderImgPrincipal_104_1-slider-png2-r2d2-584x584_1529318754611.png'],
+    ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK7_BNCZFnL8G_f8924O_cLC76LXbLv0vqVg&usqp=CAU'],
 
     ['https://www.cinemascomics.com/wp-content/uploads/2020/06/poder-darth-vader.jpg'],
 
     ['https://i.pinimg.com/originals/af/0b/5c/af0b5cd96c2ada2c843864c49179764f.jpg'],
 
-    ['https://static.wikia.nocookie.net/doblaje/images/8/84/Owen_Lars_Young_STAR_WARS.png/revision/latest?cb=20170930191515&path-prefix=es'],
+    ['http://pm1.narvii.com/6955/8de3ebe4060f25b47bb284ef0708886144d46dd8r1-377-382v2_00.jpg'],
 
     ['https://pm1.narvii.com/6168/ff4e27ef435e7191ca5429126c31754115a93776_00.jpg'],
 
-    ['https://static.wikia.nocookie.net/starwars/images/4/41/R5_negtd.jpg/revision/latest?cb=20100810061833'],
+    ['https://www.lacitedesnuages.be/38152-home_default/star-wars-artfx-r5-d4-celebration-exclusive-pvc-statue-10-cm.jpg'],
 
     ['https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg?region=0%2C0%2C1560%2C780'],
     
@@ -37,9 +37,9 @@ const arrayphotos = [
         menu.classList.toggle('lol')
         for (let index = 0; index < array.length; index++) {
             if(menu.classList.contains('lol')){
-            menu.innerHTML += `<span class="">${array[index].name}</span>`     
+            menu.innerHTML += `<span class="menu1__span">${array[index].name}</span>`     
             }else{
-            menu.innerHTML = '<div>Personajes</div>'
+            menu.innerHTML = 'Personajes'
             } 
         }
     }
@@ -47,9 +47,9 @@ const arrayphotos = [
     function menu2(menu) {
         menu.classList.toggle('lol')
             if(menu.classList.contains('lol')){
-            menu.innerHTML += `<span>Lord Venao</span>` + '<span>Perfect Jedi</span>' + '<span>Momy Joda</span>' + '<span>Dark senior</span>' + '<span>Padawan</span>' +'<span>Er papa de los Helados</span>'
+            menu.innerHTML += `<span class="menu2__span">Lord Venao</span>` + '<span class="menu2__span">Perfect Jedi</span>' + '<span class="menu2__span">Momy Joda</span>' + '<span class="menu2__span">Dark senior</span>' + '<span class="menu2__span">Padawan</span>' +'<span class="menu2__span">Er papa de los Helados</span>'
             }else{
-            menu.innerHTML = '<div>Divertidos</div>'
+            menu.innerHTML = 'Divertidos'
             } 
     }
 
