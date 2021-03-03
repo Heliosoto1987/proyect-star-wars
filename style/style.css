@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: candara, 'Courier New', Courier, monospace;
+    font-family: 'candara';
 }
 
 body{
@@ -12,6 +12,7 @@ body{
     height: 100%;
     background-color: black;
 }
+
 img{
     width: 100%;
     height: 100%;
@@ -22,27 +23,30 @@ img{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
 .page__header{
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .img__planet{
     position: absolute;
-    width: 50%;
-    height: 50%;
+    width: 23.4%;
+    height: 44.6%;
     z-index: -5;
 }
 
 .nav{
     display: flex;
-    justify-content: space-between;
-    -webkit-text-stroke: 0.8px rgb(249, 209, 47);
-    font-size: 1.2rem;
+    justify-content: space-around;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    color: #ffc500;
+    font-size: 1.50rem;
     text-decoration: underline;
-    margin: 0 2%;
 }
 
 .img__inside{
@@ -54,8 +58,7 @@ img{
     flex-direction: column;
     width: fit-content;
     height: fit-content;
-    margin-top: 50px;
-    
+    margin-top: 25px;
 }
 
 .menu2{
@@ -70,30 +73,28 @@ img{
 }
 
 .reciver{
+    margin-top: 5%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    -webkit-text-stroke: 0.8px rgb(249, 209, 47);
-    font-size: 1.1rem;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    letter-spacing: 3.2px;
+    color: #ffc500;
+    font-size: 1.50rem;
 }
 
-.reciver__text{ 
+.reciver__text{
     text-align: center;
-    max-width: 80vw;
-    margin-bottom: 5%;
 }
 
 .img{
-    width: 25vw;
+    width: 30vw;
     height: 25vh;
 }
 
 audio{
+    margin-top: 10%;
     align-self: center;
-    width: 40vw;
-    height: 4.5%;
+    width: 70vw;
     padding: 6px 20px 16px;
     border-radius: 16.1px;
     -webkit-backdrop-filter: blur(32.1px);
@@ -116,7 +117,6 @@ audio{
     .menu1{
         width: 256px;
         height: 59px;
-        font-family: Candara;
         font-size: 48px;
         font-weight: bold;
         font-stretch: normal;
@@ -132,7 +132,6 @@ audio{
     }
 
     .menu1__span{
-        font-family: Candara;
         font-size: 28px;
         font-weight: normal;
         font-stretch: normal;
@@ -145,7 +144,6 @@ audio{
     .menu2{
         width: 245px;
         height: 59px;
-        font-family: Candara;
         font-size: 48px;
         font-weight: bold;
         font-stretch: normal;
@@ -162,7 +160,6 @@ audio{
     }
 
     .menu2__span{
-        font-family: Candara;
         font-size: 28px;
         font-weight: normal;
         font-stretch: normal;
@@ -170,7 +167,7 @@ audio{
         line-height: normal;
         letter-spacing: 1.87px;
         color: #ffc500;
-        
+
     }
 
     audio{
@@ -194,7 +191,6 @@ audio{
        top: 57.9%;
        left: 41.7%;
        right: 41.7%;
-       bottom: 22.1%;
        text-align: center;
     }
 
