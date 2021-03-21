@@ -95,7 +95,7 @@ audio{
     margin-top: 10%;
     align-self: center;
     width: 70vw;
-    padding: 6px 20px 16px;
+
     border-radius: 16.1px;
     -webkit-backdrop-filter: blur(32.1px);
     backdrop-filter: blur(32.1px);
@@ -167,12 +167,11 @@ audio{
         line-height: normal;
         letter-spacing: 1.87px;
         color: #ffc500;
-
     }
 
     audio{
         width: 27.8%;
-        height: 4.5%;
+ 
         padding: 6px 20px 16px;
         border-radius: 16.1px;
         -webkit-backdrop-filter: blur(32.1px);
